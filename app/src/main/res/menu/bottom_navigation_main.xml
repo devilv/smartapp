@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_add"
+        android:title="home"
+        apps:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/action_groupchat"
+        android:enabled="true"
+        android:icon="@drawable/ic_chat"
+        android:title="Chat"
+        apps:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/action_student"
+        android:enabled="true"
+        android:icon="@drawable/ic_corner"
+        android:title="Student Corner"
+        apps:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/action_profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_student_corner"
+        android:title="Profile"
+        apps:showAsAction="ifRoom"
+        />
+</menu>
